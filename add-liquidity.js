@@ -8,7 +8,7 @@ const RPC_URL = 'https://rpc.lens.dev';
 const NFT_POSITION_MANAGER_CONTRACT_ADDRESS = '0xC5d0CAaE8aa00032F6DA993A69Ffa6ff80b5F031';
 const PRIVATE_KEY = 'INSERT_PK';
 
-const poolAddress = '0x5eb6b146d7a5322b763c8f8b0eb2fdd5d15e49de';
+const poolAddress = '0x5eb6b146d7a5322b763c8f8b0eb2fdd5d15e49de'; // UniswapV3Pool address, deploy from NonfungiblePositionManager.createAndInitializePoolIfNecessary
 const slippageTolerance = 0.975;
 // tick range is currently hardcoded in updatePoolParams function
 const poolConfig = {
